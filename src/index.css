@@ -1,0 +1,36 @@
+@layer base {
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+}
+
+.box {
+  
+  border: 1px solid #ccc;
+}
+
+.top {
+  box-shadow: 0 -5px 5px -5px #333;
+}
+
+.right {
+  box-shadow: 5px 0 5px -5px #333;
+}
+
+.bottom {
+  box-shadow: 0 5px 5px -5px #333;
+}
+
+.left {
+  box-shadow: -5px 0 5px -5px #333;
+}
+
+.all {
+  box-shadow: 0 0 5px #333;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
